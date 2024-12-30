@@ -5,6 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # .\.venv\Scripts\activate
 # pytest --html=report.html
+# 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
 @pytest.fixture(scope="class")
 def web_driver(request):
 
@@ -15,4 +16,3 @@ def web_driver(request):
     yield
     # Close the browser
     driver.quit()
-
