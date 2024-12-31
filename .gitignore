@@ -1,3 +1,14 @@
 # Ignore virtual environments
 venv/
 env/
+
+# Ignore log file
+logfile.log
+
+# ignore report html
+report.html
+
+# Byte-compiled files
+__pycache__/
+.idea/
+assets/
